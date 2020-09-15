@@ -16,7 +16,7 @@ namespace GAD_Semester__2_Task_1
 
         enum TileType {Hero, Enemy, Gold, Weapon}
 
-        public Tile(int x, int y) 
+        public Tile(int x, int y)// This is to controll the postion of the character 
         {
             this.PosX = 0;
             this.posY = 0;

@@ -11,13 +11,11 @@ namespace GAD_Semester__2_Task_1
         public Goblin(int x, int y) : base(x, y) 
         {
 
-
         }
 
         public void returnMove() 
         {
             Random r = new Random();
-
         }
     }
 }

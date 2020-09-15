@@ -31,7 +31,7 @@ namespace GAD_Semester__2_Task_1
         {
 
         }
-        public bool Isdead() 
+        public bool Isdead()// This method returns a bool to see if the characters healthis less than 0 to see if the character is dead 
         {
             if (HP > -1)
             {
@@ -44,13 +44,13 @@ namespace GAD_Semester__2_Task_1
             return true;
         }
 
-        public virtual bool CheckRange(Character target) 
+        public virtual bool CheckRange(Character target)// This checks the distance to opposite characters 
         {
             distanceTo = 0;
             return true;
         }
 
-        public virtual void Attack(Character target) 
+        public virtual void Attack(Character target)// When the character is attacked the target takes damage 
         {
             target.HP -= Damage;
         }

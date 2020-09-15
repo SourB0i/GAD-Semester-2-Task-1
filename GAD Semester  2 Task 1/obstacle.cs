@@ -10,7 +10,7 @@ namespace GAD_Semester__2_Task_1
     {
 
 
-        public obstacle(int x, int y):base(x,y)
+        public obstacle(int x, int y):base(x,y)// Base is the super class and acts as tile.
         {
 
             create();

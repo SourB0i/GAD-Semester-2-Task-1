@@ -14,7 +14,7 @@ namespace GAD_Semester__2_Task_1
 
         }
 
-        public void ReturnMove(movement move) 
+        public void ReturnMove(movement move)// This is where the hero is moved  
         {
             switch (move)
             {

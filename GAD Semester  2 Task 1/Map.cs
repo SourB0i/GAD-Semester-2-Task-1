@@ -19,7 +19,7 @@ namespace GAD_Semester__2_Task_1
         public int Mapheight { get => mapheight; set => mapheight = value; }
         public int Mapwidth { get => mapwidth; set => mapwidth = value; }
 
-        public Map(int min, int max, int enemiesNumber) 
+        public Map(int min, int max, int enemiesNumber)// This method creates the random postions for the characters on the Map 
         {
             Random r = new Random();
             r.Next(min,max);
